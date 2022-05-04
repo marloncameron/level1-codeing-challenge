@@ -1,10 +1,10 @@
-def square(x):
-    for i in range(int(a)):
-        for j in range(int(a)):
+def square(hash):
+    for row1 in range(int(rows)):
+        for row2 in range(int(rows)):
             print("# ", end="")
         print()
 
 
-a = input(int())
+rows = 4
 
-square(a)
+square(rows)
