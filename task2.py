@@ -1,15 +1,12 @@
-def num_contain_3():
-    if x == 3 :
+def num_contain_3(number):
+    if number == 3 :
         print("true")
 
     else:
         print("false")
 
-
-a =(1 ,2)
-x = sum(a)
-
-num_contain_3()
+num1 = 1
+sum_num = 2 + num1
 
 
-
+num_contain_3(sum_num)
