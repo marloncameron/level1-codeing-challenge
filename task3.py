@@ -1,13 +1,12 @@
-
-def num_contain_65():
-    if x == 65 :
+def num_contain_65(number):
+    if number == 65 :
         print("true")
 
     else:
         print("false")
 
+num1 = 15
+sum_num = 50 + num1
 
-a =(55 ,10)
-x = sum(a)
 
-num_contain_65()
+num_contain_65(sum_num)
