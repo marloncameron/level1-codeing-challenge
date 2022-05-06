@@ -1,10 +1,10 @@
-def triangle(x):
-    for i in range(int(a)):
-        for j in range(i + 1):
-            print("# ", end="")
+def triangle(hash):
+    for rowi in range(int(tri)):
+        for royj in range(rowi + 1):
+            print("#", end="")
         print()
 
 
-a = input("please entry 2 or 4: ")
+tri = 4
 
-triangle(a)
+triangle(tri)
